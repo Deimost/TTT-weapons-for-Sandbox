@@ -1,0 +1,23 @@
+-- function TTTwfS.PlayerInitialSpawn(ply)
+-- 	timer.Simple(3, function()
+-- 		TTTwfS.postSpawn(ply)
+-- 	end)
+-- end
+-- 
+-- hook.Add("PlayerInitialSpawn", "TTTwfS.PlayerInitialSpawn", TTTwfS.PlayerInitialSpawn)
+-- 
+-- -- function TTTwfS.PlayerSpawn(ply)
+-- -- 	TTTwfS.postSpawn(ply)
+-- -- end
+-- 
+-- hook.Add("PlayerSpawn", "TTTwfS.PlayerSpawn", TTTwfS.PlayerSpawn)
+-- 
+-- function TTTwfS.AllowPlayerPickup(ply, ent)
+-- 	wep = ply:GetActiveWeapon()
+-- 	
+-- 	if wep.TTTwfSWeapon then
+-- 		return false
+-- 	end
+-- end
+-- 
+-- hook.Add("AllowPlayerPickup", "TTTwfS.AllowPlayerPickup", TTTwfS.AllowPlayerPickup)
